@@ -57,6 +57,6 @@ The objective of this project is to transform raw sales data into an interactive
 
 5. **Create data hierarchy**. Group data by hierarchical relationship for later application of drill-down function in the visuals. 
 <p align="center">
-  <img src="images/hierarchy_image.png">
+  <img src="images/hierarchy_image.png" width="30%">
 </p>
 
