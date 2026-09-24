@@ -26,7 +26,7 @@ The objective of this project is to transform raw sales data into an interactive
 2. **Modify data types.** Change data type of column “Postal Code” from Number into Text.
 3. **Create columns.** In Power Query, create a column “Processing Days” to indicate days taken to process each order, which helps to analysis the performance of processing time. 
 
-!image.png
+![Create column](images/create_column_image.png)
 
 4. **New Measures & DAX.** In Power Query, create new measures to calculate Sales Growth Year-over-Year, and Average Sales per Order. 
 
@@ -57,4 +57,4 @@ Average Sales per Order =
 
 5. **Create data hierarchy**. Group data by hierarchical relationship for later application of drill-down function in the visuals. 
 
-!image.png
+![Data Hierarchy](images/hierarchy_image.png)
