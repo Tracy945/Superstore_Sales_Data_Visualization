@@ -19,3 +19,21 @@ The objective of this project is to transform raw sales data into an interactive
 ## Tools & Technologies
 
 **Power BI** is used for data cleaning and transformation, data modeling, DAX calculations, and interactive dashboard development. The project also uses **Power Query** for data preparation and **DAX** for creating analytical measures and KPIs.
+
+## Data Preparation & Processing - Key Steps
+
+1. **Remove duplicates**. Use command in Power Query to remove duplicate rows.
+2. **Modify data types.** Change data type of column “Postal Code” from Number into Text.
+3. **Create columns.** In Power Query, create a column “Processing Days” to indicate days taken to process each order, which helps to analysis the performance of processing time. 
+
+!image.png
+
+1. **Create New Measures & DAX.** In Power Query, create new measures to calculate Sales Growth Year-over-Year, Average Sales per Order, Total Sales under certain criteria. 
+
+```sql
+Sales SPLY = 
+	CALCULATE(
+		[Total Sales], 
+		SAMEPERIODLASTYEAR(superstore_sales_dataset[Order Date].[Date])
+		)
+```
