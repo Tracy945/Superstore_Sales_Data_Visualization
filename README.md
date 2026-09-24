@@ -29,7 +29,8 @@ The objective of this project is to transform raw sales data into an interactive
 !image.png
 
 1. **Create New Measures & DAX.** In Power Query, create new measures to calculate Sales Growth Year-over-Year, Average Sales per Order, Total Sales under certain criteria. 
-
+> [!INFO]
+> 
 ```sql
 Sales SPLY = 
 	CALCULATE(
