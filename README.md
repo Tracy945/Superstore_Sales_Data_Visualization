@@ -61,6 +61,6 @@ Average Sales per Order =
 5. **Create data hierarchy**. Group data by hierarchical relationship for later application of drill-down function in the visuals. 
 
 <p align="center">
-  <img src="images/hierarchy_image.png" width="80%">
+  <img src="images/hierarchy_image.png">
 </p>
 
