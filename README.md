@@ -32,34 +32,31 @@ The objective of this project is to transform raw sales data into an interactive
 
 
 4. **New Measures & DAX.** In Power Query, create new measures to calculate Sales Growth Year-over-Year, and Average Sales per Order.
-<div align="center">
-  <pre>
-```sql
--- Sales amount for Same Period Last Year (SPLY)
-Sales SPLY = 
-	CALCULATE(
-		[Total Sales], 
-		SAMEPERIODLASTYEAR(superstore_sales_dataset[Order Date].[Date])
-	)
+	```DAX
+	-- Sales amount for Same Period Last Year (SPLY)
+	Sales SPLY = 
+		CALCULATE(
+			[Total Sales], 
+			SAMEPERIODLASTYEAR(superstore_sales_dataset[Order Date].[Date])
+		)
 		
--- Sales growth Year-over-Year (YoY Growth)
-Sales YoY Growth = 
-	DIVIDE(
-    [Total Sales] - [Sales SPLY],
-    [Sales SPLY],
-    BLANK()
-	)
+	-- Sales growth Year-over-Year (YoY Growth)
+	Sales YoY Growth = 
+		DIVIDE(
+    	[Total Sales] - [Sales SPLY],
+    	[Sales SPLY],
+    	BLANK()
+		)
 	
--- Average Sales per Order
-Average Sales per Order = 
-	DIVIDE(
-    [Total Sales],
-    DISTINCTCOUNT([Order ID]),
-    0
-	)
-```
-  </pre>
-</div>
+	-- Average Sales per Order
+	Average Sales per Order = 
+		DIVIDE(
+    	[Total Sales],
+    	DISTINCTCOUNT([Order ID]),
+    	0
+		)
+	```
+
 
 5. **Create data hierarchy**. Group data by hierarchical relationship for later application of drill-down function in the visuals. 
 
