@@ -25,11 +25,9 @@ The objective of this project is to transform raw sales data into an interactive
 1. **Remove duplicates**. Use command in Power Query to remove duplicate rows.
 2. **Modify data types.** Change data type of column “Postal Code” from Number into Text.
 3. **Create columns.** In Power Query, create a column “Processing Days” to indicate days taken to process each order, which helps to analysis the performance of processing time. 
-
 <p align="center">
   <img src="images/create_column_image.png" width="60%">
 </p>
-
 
 4. **New Measures & DAX.** In Power Query, create new measures to calculate Sales Growth Year-over-Year, and Average Sales per Order.
 	```DAX
@@ -43,23 +41,21 @@ The objective of this project is to transform raw sales data into an interactive
 	-- Sales growth Year-over-Year (YoY Growth)
 	Sales YoY Growth = 
 		DIVIDE(
-    	[Total Sales] - [Sales SPLY],
-    	[Sales SPLY],
-    	BLANK()
+    		[Total Sales] - [Sales SPLY],
+    		[Sales SPLY],
+    		BLANK()
 		)
 	
 	-- Average Sales per Order
 	Average Sales per Order = 
 		DIVIDE(
-    	[Total Sales],
-    	DISTINCTCOUNT([Order ID]),
-    	0
+    		[Total Sales],
+    		DISTINCTCOUNT([Order ID]),
+    		0
 		)
 	```
 
-
 5. **Create data hierarchy**. Group data by hierarchical relationship for later application of drill-down function in the visuals. 
-
 <p align="center">
   <img src="images/hierarchy_image.png">
 </p>
