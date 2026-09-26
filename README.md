@@ -2,8 +2,30 @@
 
 A retail company sells a wide range of products to customers across different regions, states, and cities in the United States. Create **data visualization** using **PowerBI** to understand sales performance and identify patterns that can support better business and sales decisions.
 
-## Table of Content
-[TOC]
+
+## Table of Contents
+
+* [Business Scenario](#business-scenario)
+* [Dataset](#dataset)
+* [Project Objective](#project-objective)
+* [Key Questions](#key-questions)
+* [Tools & Technologies](#tools--technologies)
+* [Data Preparation & Processing - Key Steps](#data-preparation--processing---key-steps)
+* [Data Visualization Report & Key Insights](#data-visualization-report--key-insights)
+
+  * [1. Report Overview](#1-report-overview)
+  * [2. Sales Trend](#2-sales-trend)
+  * [3. Product Performance](#3-product-performance)
+  * [4. Customer Performance](#4-customer-performance)
+  * [5. Operational Performance](#5-operational-performance)
+* [Business Recommendation](#business-recommendation)
+
+  * [1. Prepare for “Peak Season”](#1-prepare-for-peak-season)
+  * [2. Promote Top-Selling Products](#2-promote-top-selling-products)
+  * [3. Reward High-Value Customers](#3-reward-high-value-customers)
+  * [4. Strengthen Distribution in High-Sales Areas](#4-strengthen-distribution-in-high-sales-areas)
+  * [5. Prioritise High-Value Orders](#5-prioritise-high-value-orders)
+
 
 
 ## Business Scenario
