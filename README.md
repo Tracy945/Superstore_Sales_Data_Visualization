@@ -1,4 +1,5 @@
 # Superstore_Sales_Data_Visualization
+## Business Scenario
 A retail company sells a wide range of products to customers across different regions, states, and cities in the United States. Create **data visualization** using **PowerBI** to understand sales performance and identify patterns that can support better business and sales decisions.
 
 ## Dataset
@@ -59,4 +60,88 @@ The objective of this project is to transform raw sales data into an interactive
 <p align="center">
   <img src="images/hierarchy_image.png" width="25%">
 </p>
+
+## **Data Visualization Report & Key Insights**
+
+### 1. Report Overview
+
+The final report has 4 pages (dashboards). Each page contains several visuals focusing on one aspects of the sales data.
+
+- Sales Trends -  Overall sales over time, yearly growth of each year.
+- Product performance - Product category performance, top sales products.
+- Customer performance - Top contribution customers, top sales by states and cities.
+- Operational Performance - Corelation between processing days and value of orders, how ship mode affects the processing days.
+
+### 2. Sales Trend
+
+This page explores sales trends over the years, the latest year sales performance in each category, and year-over-year growth to identify key changes in business performance. 
+
+!dashboard_Sales_Trend.png
+
+The trend line shows overall sales has been going upwards from 2015 to 2018, so the forecasting line  shows an increasing trend in the following year. YoY Growth also confirms that there is a significant growth in 2017 and 2018.
+
+A recurring pattern can be noticed that there is a higher sales from September to December in each year. Meaning this period of time would be the peak season for the company. 
+
+The visual in the bottom right corner can be used as a filter, to explore further how sales trends changes for each states. For example, below screenshot shows the data visuals for California only.
+
+!image.png
+
+### 3. Product Performance
+
+This page shows a detail performance of sales in terms of product categories, sub-categories, and specific products. 
+
+!dashboard_Product_Performance.png
+
+From the donut chart we can see the sales composition percentage of categories. Also the drill-down function allow us to explore the composition of sub-categories under each category, then further the specific products.
+
+!image.png
+
+The table and the bar charts give straight forward information about the top sales sub-categories and products. 
+
+Interestingly, the top 1 selling product, which significantly outperformed the 2nd-ranked product, is a Cannon copier, while copier is only the 8th ranking sub-category in sales. That’s because the unit price of copier is much higher than other sub-categories, even it doesn’t have many orders.
+
+!image.png
+
+The slicer on top gives the option to filter the visuals in specific time range. For example, getting information for the latest year.
+
+### 4. Customer Performance
+
+Similar to the Product Performance page, this page shows the performance of sale in terms of the buying segment, customers, and the geographic distribution across United States.
+
+!dashboard_Customer_Performance.png
+
+From this page we can see buyers from California and New York contributes the most sales amount, and so as the biggest cities in these states — Los Angeles and New York City. This suggests that population is likely to be closely related to sales in a region.
+
+The pie chart indicates that the Consumer segment takes up more than half of total sales, followed by the Corporate segment, while the Home Office segment accounts for the smallest share. 
+
+### 5. Operational Performance
+
+This page focus on the processing time required for orders.  
+
+!dashboard_Operational_Performance.png
+
+The matrix and column chart suggest that the number of days required to process orders is strongly associated with the selected ship mode. The “Same Day” ship mode takes the least time, as its name suggests, while the “Standard Class” ship mode takes the longest, usually more than four days.
+The scatter chart on the right shows a negative correlation between the average processing time and average sales value across different sub-categories. In particular, expensive items such as Copiers and Machines tend to have shorter processing times than cheaper items.
+
+## Business Recommendation
+
+### **1. Prepare for “Peak Season”**
+
+As the sales trend visuals suggest, the period from September to December is the peak sales period of the year. The company could make preparations in advance to better handle the increased demand. For example, it could hire temporary workers during this period, secure additional logistics capacity, and upgrade the infrastructure of its online shopping platforms to ensure they can handle higher traffic.
+
+### 2. Promote Top-Selling Products
+
+After identifying the top-selling products and sub-categories, the company can develop targeted marketing strategies to further promote these popular items, such as phones and chairs. These products could be given greater visibility by being displayed upfront of the online shopping website. The company could also offer targeted discounts on selected products to attract more orders and potentially increase sales.
+
+### 3. Reward high-value customers
+
+Since some customers generate significantly more revenue than others, offering them targeted rewards can boost loyalty and retention. It could offer exclusive VIP benefits, such as select discounts, faster shipping options, or premium customer support. The goal is to enhance the customer experience and incentivize these top-tier shoppers to remain loyal.
+
+### 4. Strengthen Distribution in High-Sales Areas
+
+The analysis identifies the states and cities that generate the highest sales. The company could allocate more inventory and logistics resources to these high-performing areas to better meet local demand. Establishing additional distribution capacity in key locations could also help reduce shipping times and improve customer satisfaction.
+
+### 5. Prioritise High-Value Orders
+
+Since high-value products tend to have shorter processing times, the company could consider prioritising high-value orders in its fulfilment process. Allocating sufficient operational resources to these orders may help maintain fast processing times and support a positive customer experience.
 
