@@ -11,7 +11,7 @@ A retail company sells a wide range of products to customers across different re
 
 ## Dataset
 
-The dataset contains retail transaction records covering a four-year period from **2015 to 2018**. Each record includes information about orders, customers, geographic location, products, product categories, shipping methods, and sales, allowing performance to be analyzed from multiple perspectives.
+The dataset contains retail transaction records covering a four-year period from **2015 to 2018**. Each record includes information about orders, customers, geographic location, products, product categories, shipping methods, and sales, allowing performance to be analyzed from multiple perspectives. </br>
 Data source: Superstore Sales Dataset https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
 ## Project Objective
@@ -84,7 +84,9 @@ The final report has 4 pages (dashboards). Each page contains several visuals fo
 
 This page explores sales trends over the years, the latest year sales performance in each category, and year-over-year growth to identify key changes in business performance. 
 
-!dashboard_Sales_Trend.png
+<p align="center">
+  <img src="images/dashboard_Sales_Trend.png" width="60%">
+</p>
 
 The trend line shows overall sales has been going upwards from 2015 to 2018, so the forecasting line  shows an increasing trend in the following year. YoY Growth also confirms that there is a significant growth in 2017 and 2018.
 
