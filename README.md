@@ -73,6 +73,8 @@ The objective of this project is to transform raw sales data into an interactive
 
 ### 1. Report Overview
 
+[Download PowerBI Report](./PowerBI/superstore_sales_dashboard.pbix)
+
 The final report has 4 pages (dashboards). Each page contains several visuals focusing on one aspects of the sales data.
 
 - Sales Trends -  Overall sales over time, yearly growth of each year.
