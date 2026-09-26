@@ -1,10 +1,18 @@
 # Superstore_Sales_Data_Visualization
-## Business Scenario
+
 A retail company sells a wide range of products to customers across different regions, states, and cities in the United States. Create **data visualization** using **PowerBI** to understand sales performance and identify patterns that can support better business and sales decisions.
+
+## Table of Content
+[TOC]
+
+
+## Business Scenario
+A retail company sells a wide range of products to customers across different regions, states, and cities in the United States. Management wants to understand sales performance and identify patterns that can support better business and sales decisions.
 
 ## Dataset
 
 The dataset contains retail transaction records covering a four-year period from **2015 to 2018**. Each record includes information about orders, customers, geographic location, products, product categories, shipping methods, and sales, allowing performance to be analyzed from multiple perspectives.
+Data source: Superstore Sales Dataset https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
 ## Project Objective
 
