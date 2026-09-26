@@ -94,7 +94,10 @@ A recurring pattern can be noticed that there is a higher sales from September t
 
 The visual in the bottom right corner can be used as a filter, to explore further how sales trends changes for each states. For example, below screenshot shows the data visuals for California only.
 
-!image.png
+<p align="center">
+  <img src="images/sales_trend_California.png">
+</p>
+
 
 ### 3. Product Performance
 
@@ -106,13 +109,17 @@ This page shows a detail performance of sales in terms of product categories, su
 
 From the donut chart we can see the sales composition percentage of categories. Also the drill-down function allow us to explore the composition of sub-categories under each category, then further the specific products.
 
-!image.png
+<p align="center">
+  <img src="images/category_drill-down.png" width="60%">
+</p>
 
 The table and the bar charts give straight forward information about the top sales sub-categories and products. 
 
 Interestingly, the top 1 selling product, which significantly outperformed the 2nd-ranked product, is a Cannon copier, while copier is only the 8th ranking sub-category in sales. That’s because the unit price of copier is much higher than other sub-categories, even it doesn’t have many orders.
 
-!image.png
+<p align="center">
+  <img src="images/Cannon_copier.png">
+</p>
 
 The slicer on top gives the option to filter the visuals in specific time range. For example, getting information for the latest year.
 
