@@ -12,7 +12,7 @@ A retail company sells a wide range of products to customers across different re
 ## Dataset
 
 The dataset contains retail transaction records covering a four-year period from **2015 to 2018**. Each record includes information about orders, customers, geographic location, products, product categories, shipping methods, and sales, allowing performance to be analyzed from multiple perspectives. </br>
-Data source: Superstore Sales Dataset https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+*Data source: Superstore Sales Dataset  https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting*
 
 ## Project Objective
 
@@ -85,7 +85,7 @@ The final report has 4 pages (dashboards). Each page contains several visuals fo
 This page explores sales trends over the years, the latest year sales performance in each category, and year-over-year growth to identify key changes in business performance. 
 
 <p align="center">
-  <img src="images/dashboard_Sales_Trend.png" width="60%">
+  <img src="images/dashboard_Sales_Trend.png">
 </p>
 
 The trend line shows overall sales has been going upwards from 2015 to 2018, so the forecasting line  shows an increasing trend in the following year. YoY Growth also confirms that there is a significant growth in 2017 and 2018.
@@ -100,7 +100,9 @@ The visual in the bottom right corner can be used as a filter, to explore furthe
 
 This page shows a detail performance of sales in terms of product categories, sub-categories, and specific products. 
 
-!dashboard_Product_Performance.png
+<p align="center">
+  <img src="images/dashboard_Product_Performance.png">
+</p>
 
 From the donut chart we can see the sales composition percentage of categories. Also the drill-down function allow us to explore the composition of sub-categories under each category, then further the specific products.
 
@@ -118,7 +120,9 @@ The slicer on top gives the option to filter the visuals in specific time range.
 
 Similar to the Product Performance page, this page shows the performance of sale in terms of the buying segment, customers, and the geographic distribution across United States.
 
-!dashboard_Customer_Performance.png
+<p align="center">
+  <img src="images/dashboard_Customer_Performance.png">
+</p>
 
 From this page we can see buyers from California and New York contributes the most sales amount, and so as the biggest cities in these states — Los Angeles and New York City. This suggests that population is likely to be closely related to sales in a region.
 
@@ -128,7 +132,9 @@ The pie chart indicates that the Consumer segment takes up more than half of tot
 
 This page focus on the processing time required for orders.  
 
-!dashboard_Operational_Performance.png
+<p align="center">
+  <img src="images/dashboard_Operational_Performance.png">
+</p>
 
 The matrix and column chart suggest that the number of days required to process orders is strongly associated with the selected ship mode. The “Same Day” ship mode takes the least time, as its name suggests, while the “Standard Class” ship mode takes the longest, usually more than four days.
 The scatter chart on the right shows a negative correlation between the average processing time and average sales value across different sub-categories. In particular, expensive items such as Copiers and Machines tend to have shorter processing times than cheaper items.
